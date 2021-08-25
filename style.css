@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+
 }
 
 #home {
@@ -19,3 +19,12 @@ footer p a {
     margin: 5px 15px;
 }
 
+/* #home {
+    overflow-x: auto;  
+} */
+
+@media (max-width: 600px) {
+    #home {
+        overflow-y: hidden;
+    }
+}
